@@ -1,0 +1,25 @@
+/* index.css */
+
+/* Include Tailwind CSS styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Google Fonts using @import */
+/* @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=M+PLUS+1p&display=swap'); */
+
+/* Apply font to all elements */
+* {
+  font-family: 'Epilogue', sans-serif;  
+  scroll-behavior: smooth;
+}
+html{
+  background-color:#FFF7EFff;
+}
+&::-webkit-scrollbar {
+  display: none;
+}
+
+.slick-slide > div{
+  margin: 0 10px;
+}
