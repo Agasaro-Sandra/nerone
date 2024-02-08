@@ -2,8 +2,8 @@ import React from 'react'
 
 const Suitable = () => {
   return (
-    <div className='w-full flex  justify-evenly items-center mb-30 xmd:grid xmd:gap-10 '>
-        <div className='grid gap-4 w-1/3 xmd:w-2/3 '>
+    <div className='w-full flex  justify-evenly items-center mb-30 xmd:flex xmd:flex-col xmd:items-center'>
+        <div className='grid gap-4 w-1/3 xmd:w-2/3 xmd:mb-4'>
           <h1 className="capitalize text-6xl">suitable for all skin types</h1>
           <p>What makes us different? We treat <br />you personally - and honestly.</p>
           <button className="bg-bistre text-white text-xs w-1/3 xmd:w-1/2 h-10">Shop skincare</button>

@@ -20,7 +20,7 @@ const Bottom = () => {
           <h1 className='text-6xl font-bold text-van-dyke mb-10'>Nerone</h1>
           <div className="w-7/12 flex justify-evenly">
             <input type="email" name="subscribe" placeholder="Enter Your Email" className="bg-linen border border-gray h-12 pl-3 w-8/12"/>
-            <button type="submit" className="bg-van-dyke text-white text-center border border-gray h-12 pl-3 w-3/12">Submit Now</button>
+            <button type="submit" className="bg-van-dyke text-white text-center border border-gray h-12 p-auto w-3/12 xmd:text-xs">Submit</button>
           </div>
         </div>
         
